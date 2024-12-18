@@ -14,7 +14,7 @@ if "data" not in st.session_state:
     
 
 
-st.markdown("# FIFA23 OFFICIAL DATASET!⚽")
+st.markdown("# FIFA22 OFFICIAL DATASET!⚽")
 st.sidebar.markdown("Desenvolvido por [Asimov Academy](https://asimov.academy)")
 
 btn = st.link_button(
