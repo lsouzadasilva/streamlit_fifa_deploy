@@ -6,7 +6,7 @@ import openai
 
 
 if "data" not in st.session_state:
-    df_data = pd.read_csv("datasets/CLEAN_FIFA17_official_data.csv", index_col=0)
+    df_data = pd.read_csv("datasets/CLEAN_FIFA19_official_data.csv", index_col=0)
     df_data = df_data[df_data["Contract Valid Until"] >= datetime.today().year]
     df_data = df_data[df_data["Value(£)"] > 0]
     df_data = df_data.sort_values(by="Overall", ascending=False)
@@ -14,7 +14,7 @@ if "data" not in st.session_state:
     
 
 
-st.markdown("# FIFA17 OFFICIAL DATASET!⚽")
+st.markdown("# FIFA19 OFFICIAL DATASET!⚽")
 st.sidebar.markdown("Desenvolvido por [Asimov Academy](https://asimov.academy)")
 
 btn = st.link_button(
