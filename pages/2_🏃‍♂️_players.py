@@ -1,5 +1,13 @@
 import streamlit as st
 
+
+st.set_page_config(
+    page_title="Players",
+    page_icon="🏃‍♂️",
+    layout="wide"
+)
+df_data = st.session_state["data"]
+
 # --- Ocult menus ---
 hide_st_style = """
             <style>
@@ -8,13 +16,6 @@ hide_st_style = """
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
-
-st.set_page_config(
-    page_title="Players",
-    page_icon="🏃‍♂️",
-    layout="wide"
-)
-df_data = st.session_state["data"]
 
 
 clubes = df_data["Club"].value_counts().index
