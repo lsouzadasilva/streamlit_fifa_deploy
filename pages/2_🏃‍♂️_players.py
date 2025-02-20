@@ -1,5 +1,14 @@
 import streamlit as st
 
+# --- Ocult menus ---
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 st.set_page_config(
     page_title="Players",
     page_icon="🏃‍♂️",
