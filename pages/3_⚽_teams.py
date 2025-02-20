@@ -8,6 +8,16 @@ st.set_page_config(
 df_data = st.session_state["data"]
 
 
+# --- Ocult menus ---
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
+
 clubes = df_data["Club"].value_counts().index
 club = st.sidebar.selectbox("Clubes", clubes)
 
