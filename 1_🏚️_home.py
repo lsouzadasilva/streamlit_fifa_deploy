@@ -1,8 +1,6 @@
 import streamlit as st
-import webbrowser
 import pandas as pd
 from datetime import datetime
-import openai
 
 # --- Ocult menus ---
 hide_st_style = """
