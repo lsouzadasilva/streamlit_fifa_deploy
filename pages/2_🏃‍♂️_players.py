@@ -24,8 +24,6 @@ df_players = df_data[(df_data["Club"] == club)]
 players = df_players["Name"].value_counts().index
 player = st.sidebar.selectbox("Jogador", players)
 
-st.sidebar.markdown("Desenvolvido por [Leandro Souza](https://br.linkedin.com/in/leandro-souza-313136190)")
-
 player_stats = df_data[df_data["Name"] == player].iloc[0]
 
 st.image(player_stats["Photo"])
