@@ -31,7 +31,6 @@ columns = ["Age", "Photo", "Flag", "Overall", 'Value(£)', 'Wage(£)', 'Joined',
            'Contract Valid Until', 'Release Clause(£)']
 
 st.dataframe(df_filtered[columns],
-             use_container_width=True,
              column_config={
                  "Overall": st.column_config.ProgressColumn(
                      "Overall", format="%d", min_value=0, max_value=100
