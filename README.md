@@ -2,7 +2,7 @@
 
 Análise interativa do dataset oficial de jogadores do FIFA23 desenvolvida com Streamlit.
 
-![FIFA23 Dashboard]([https://cdn2.unrealengine.com/ea-sports-fifa-23-is-coming-to-the-epic-games-store-1920x1080-398e19351a82.jpg](https://github.com/lsouzadasilva/streamlit_relatorio_fifa23/blob/main/datasets/ea-sports-fifa-23-is-coming-to-the-epic-games-store-1920x1080-398e19351a82.jpg) 
+![FIFA23 Dashboard](https://github.com/lsouzadasilva/streamlit_relatorio_fifa23/blob/main/datasets/ea-sports-fifa-23-is-coming-to-the-epic-games-store-1920x1080-398e19351a82.jpg) 
 
 ## 📊 Visão Geral
 
